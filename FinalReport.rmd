@@ -78,7 +78,7 @@ From the data above, the Pearson's Chi-squared test p-value is 0.01098 and fishe
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
-    
+#2x2 test   
 ## A function to run multiple fisher tests   
 
 ### Upload the fisherXY.R function then source it
@@ -153,8 +153,11 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 fisherXY(GSS$RACE,GSS$BIGBANG,printAll = T)
 ```
 
+From this 2x2 test we see that there is a big difference between Black and others.
 
 
 # Discussion and Conclusion
+
+In conclusion, according to the data we see there is a significant difference between Blacks and Other race beliefs about the big bang theory. We also see a big difference between Blacks and White race beliefs in the big bang theory  
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
