@@ -60,7 +60,9 @@ table1 <- xtabs(~RACE + BIGBANG, data=GSS)
 rowPerc(table1)
 colPerc(table1)
 ```
-80% of black people say that the bigbang is false
+
+The tables shows that 80% of the Black race say they do not believe in the big bang theory. 55% of the Other race do believe in the theory. 50/50 of the White race believe in the big bang theory. The biggest difference of beliefs is in the Black race and not much of a difference found in Other and White race.
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
